@@ -15,7 +15,7 @@ class House:
             return self
 
     def __str__(self):
-        return f'Название:{self.name}, Количество этажей:{self.number_of_floors}'
+        return f'Название:{self.name}, Количество этажей :{self.number_of_floors}'
 
     def __lt__(self, other):
         return self.number_of_floors < other.number_of_floors
