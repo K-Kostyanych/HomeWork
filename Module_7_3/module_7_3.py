@@ -36,7 +36,7 @@ class WordsFinder:
 finder1 = WordsFinder('test_file.txt')
 print(finder1.get_all_words()) # Все слова
 print(finder1.find('TEXT')) # 3 слово по счёту
-print(finder1.count('teXT')) # 4 слова teXT в тексте всего
+print(finder1.count('teXT')) # 4 слова teXT в тексте всегo
 
 finder2 = WordsFinder('Walt Whitman - O Captain! My Captain!.txt',
                       'Rudyard Kipling - If.txt',
