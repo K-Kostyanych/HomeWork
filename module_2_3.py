@@ -12,4 +12,5 @@ while new_list >= 0 and index < len(my_list):
     print(new_list)
 
 index += 1
+print()
 
