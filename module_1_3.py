@@ -1,4 +1,4 @@
-import os
+
 
 name = 'Konstantin'
 print(type(name))
@@ -12,5 +12,5 @@ print('Name:' ,name)
 print('Age:' ,age)
 print('New age:' ,new_age)
 print('Is Student:' ,is_student)
-print(os.getcwd())
+print()
 
