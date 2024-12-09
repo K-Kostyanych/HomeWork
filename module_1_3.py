@@ -1,3 +1,5 @@
+import os
+
 name = 'Konstantin'
 print(type(name))
 age = 44
@@ -10,4 +12,5 @@ print('Name:' ,name)
 print('Age:' ,age)
 print('New age:' ,new_age)
 print('Is Student:' ,is_student)
-print()
+print(os.getcwd())
+
